@@ -318,6 +318,20 @@
   }
   .file-card.full{ grid-column:1 / -1; }
 
+  .card-links{
+    margin-top:14px;
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+  }
+  .card-links a{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--seal);
+    text-decoration:none;
+    border-bottom:1px solid var(--seal);
+  }
+
   .instruments{
     display:grid;
     grid-template-columns:1fr;
@@ -477,7 +491,7 @@
           <h3>Analyst (Programmer)</h3>
           <p class="org">Samarth E-Gov · Ministry of Education, Govt. of India</p>
           <ul>
-            <li>Built and supported 4+ core modules for Delhi University — Admissions (CUET-UG/PG), Training & Placement, Leave Management</li>
+            <li>Built and supported 4+ core modules for Delhi University — Admissions (CUET-UG/PG), Training &amp; Placement, Leave Management</li>
             <li>Shipped MERN applications serving thousands of students and staff</li>
             <li>Cut deployment effort by 50% by containerizing services with Docker on AWS</li>
           </ul>
@@ -522,7 +536,10 @@
           <div class="stack-tags">
             <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>PayPal API</span>
           </div>
-          <p style="margin-top:14px;"><a href="https://github.com/MohdAamirTahir/Mern-Ecommerce-2026" target="_blank" rel="noopener" style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--seal); text-decoration:none; border-bottom:1px solid var(--seal);">View repository →</a></p>
+          <div class="card-links">
+            <a href="https://mern-ecommerce-frontend-cwk8.onrender.com/auth/login" target="_blank" rel="noopener">View live demo →</a>
+            <a href="https://github.com/MohdAamirTahir/Mern-Ecommerce-2026" target="_blank" rel="noopener">View repository →</a>
+          </div>
         </div>
 
         <div class="file-card reveal">
@@ -532,7 +549,10 @@
           <div class="stack-tags">
             <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>CRUD API</span>
           </div>
-          <p style="margin-top:14px;"><a href="https://crud-todo-mern-frontend.onrender.com/" target="_blank" rel="noopener" style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--seal); text-decoration:none; border-bottom:1px solid var(--seal);">View live demo →</a></p>
+          <div class="card-links">
+            <a href="https://crud-todo-mern-frontend.onrender.com/" target="_blank" rel="noopener">View live demo →</a>
+            <a href="https://github.com/MohdAamirTahir/crud-todo-mern" target="_blank" rel="noopener">View repository →</a>
+          </div>
         </div>
 
         <div class="file-card reveal">
@@ -542,7 +562,10 @@
           <div class="stack-tags">
             <span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>REST API</span>
           </div>
-          <p style="margin-top:14px;"><a href="https://mern-advanced-api.onrender.com" target="_blank" rel="noopener" style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--seal); text-decoration:none; border-bottom:1px solid var(--seal);">View live demo →</a></p>
+          <div class="card-links">
+            <a href="https://mern-advanced-api.onrender.com" target="_blank" rel="noopener">View live demo →</a>
+            <a href="https://github.com/MohdAamirTahir/mern-advanced-rest-api" target="_blank" rel="noopener">View repository →</a>
+          </div>
         </div>
 
         <div class="file-card reveal">
@@ -552,7 +575,10 @@
           <div class="stack-tags">
             <span>Node.js</span><span>Express.js</span><span>GraphQL</span><span>MongoDB</span><span>JWT Auth</span>
           </div>
-          <p style="margin-top:14px;"><a href="https://mern-graphql-api.onrender.com/" target="_blank" rel="noopener" style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--seal); text-decoration:none; border-bottom:1px solid var(--seal);">View live demo →</a></p>
+          <div class="card-links">
+            <a href="https://mern-graphql-api.onrender.com/" target="_blank" rel="noopener">View live demo →</a>
+            <a href="https://github.com/MohdAamirTahir/mern-graphql-api" target="_blank" rel="noopener">View repository →</a>
+          </div>
         </div>
       </div>
     </section>
